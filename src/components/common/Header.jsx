@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import Image1 from '../assets/images/logp.jpg';
-import { HiOutlineMenuAlt1, HiViewGrid } from 'react-icons/hi';
+import { HiOutlineMenuAlt1, } from 'react-icons/hi';
 import { NavLink } from 'react-router-dom';
 import { BiShoppingBag } from 'react-icons/bi';
 
@@ -21,10 +21,7 @@ const Header = () => {
       <div className='container flex justify-between items-center'>
         <div className='logo flex items-center gap-6'>
           <img src={Image1} alt="alt" className='h-20' />
-          {/* <div className='flex items-center gap-2'>
-            <HiViewGrid  />
-            <span>Category</span>
-          </div> */}
+          <h1 className='font-5xl, font-bold'>Lingual Cafe'</h1>
         </div>
         <nav className={`flex ${open ? 'mobile-view' : 'desktop-view'}`}>
           <ul className='flex items-center gap-6'>
@@ -43,10 +40,10 @@ const Header = () => {
           </ul>
         </nav>
         <div className=" account flex items-center gap-5">
-          <button>
+          {/* <button>
             <BiShoppingBag size={25} />
-          </button>
-          <button>Login</button>{" "}
+          </button> */}
+          {/* <button>Login</button>{" "} */}
           <button className='open-menu' onClick={() => setOpen(!open)}>
             <HiOutlineMenuAlt1 size={25} />
           </button>

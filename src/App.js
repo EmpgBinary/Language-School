@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home, { Online } from './components/pages/Home';
+import Home, { Online, Writeup } from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Layout from './components/common/Layout';
@@ -25,6 +25,8 @@ const App = () => {
         <Space/>
          <Learn />
          <Online />
+         <Writeup />
+         
         
         </Layout>
       ),
