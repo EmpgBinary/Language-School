@@ -16,7 +16,7 @@ const About = () => {
               We Provide the <br /> best{" "}
               <span className="text-teal-500">Online Courses</span>
             </div>
-            <p className="text-sm text-gray-500 leading-7 mb-6">
+            <p className="text-1xl text-gray-500 leading-7 mb-6">
               Lingual Cafe' Academy, a language school, is deeply committed to the global significance of language education.
               We aim to empower Nigerian students with linguistic proficiency, enabling them to excel internationally.
               Proficiency in a language not only opens doors to countless opportunities but also fosters cross-cultural understanding
@@ -34,7 +34,7 @@ const About = () => {
             <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
               CORE OBJECTIVES <br /> 
             </div>
-            <p className="text-sm text-gray-500 leading-7 mb-6">
+            <p className="text-1xl text-gray-500 leading-7 mb-6">
               Promote Language Education: The primary objective is to promote the significance of language education, emphasizing its global importance in today’s interconnected world.
               Empower Nigerian Students: To equip Nigerian students with linguistic proficiency, enabling them to distinguish themselves among their international peers.
               Address Language Education Challenges: Lingual Cafe Academy aims to address the challenges faced by Nigerian students in acquiring language proficiency, which is essential for their academic and professional growth.

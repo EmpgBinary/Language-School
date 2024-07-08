@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Ladies from '../assets/images/group2.jpg';
-import China from '../assets/images/IMG_7324.jpg';
+import China from '../assets/images/new.jpg';
 import Log1 from '../assets/images/china.png';
 import Log2 from '../assets/images/arab.png';
 import Log3 from '../assets/images/spain.png';
@@ -45,10 +45,10 @@ export const Learn = () => {
       <section className="learn">
         <div className="grid md:grid-cols-2 gap-8 place-items-center px-4 py-8">
           <div className="md:mx-8">
-            <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
+            <div className="font-bold sm:text-[1.875rem] text-[2.5rem] mb-5">
               Unlock the power of language<br />Unlock the world! <span className="text-teal-500"></span>
             </div>
-            <p className="text-sm text-gray-500 leading-7 mb-6">
+            <p className="text-1xl text-gray-500 leading-7 mb-6">
               At LINGUAL CAFE', we believe that language is the key to unlocking new opportunities, cultures, and connections.
               Our mission is to provide high-quality language education that empowers students to achieve their goals and succeed
               in an increasingly globalized world.
@@ -78,7 +78,7 @@ export const Online = () => {
     <section className="online">
       <div className="border-[1px] border-solid border-teal-50 rounded-lg my-7 m-1 p-4">
         <div className="flex justify-center items-center text-2xl font-bold mb-4">
-          <h1>Enroll into Lingual Cafe for language of choice</h1>
+          <h1>Enroll into Lingual Cafe'for Your Preferred International language of choice</h1>
         </div>
         <div className="grid lg:grid-cols-5 gap-8 justify-center mx-7 m-6">
           <div className="flex flex-col items-center">
@@ -136,8 +136,8 @@ export const Writeup = () => {
     <div className="bg-cover bg-center h-96 relative" style={{ backgroundImage: `url(${New})` }}>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-white bg-opacity-75 p-6 border-2 h-80 border-white rounded w-4/5 md:w-3/4 lg:w-2/3 overflow-auto">
-          <div className="text-sm text-gray-500 leading-7 mb-4">
-            <h1 className="font-bold mb-2">BENEFITS</h1>
+          <div className="text-2xl text-gray-500 leading-7 mb-4">
+            <h1 className="font-bold font- mb-2">BENEFITS</h1>
             <p>Lingual café offers reduced course fee to students who show keen interest and maintain a certain level of consistency during their program.</p>
 
             <h2 className="font-bold mt-4 mb-2">LINGUAL CAFÉ EVOLVE PARTY EXPERIENCE</h2>
