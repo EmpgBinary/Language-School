@@ -23,7 +23,7 @@ const Footer = () => {
               </label>
             </div>
           </a>
-          <a href="https://www.instagram.com/lingualcafeofficial/">
+          <a href="https://www.instagram.com/lingualcafeeng_academy?igsh=a3F1ejVlYmM3c251/">
             <div className='box flex gap-2 items-center px-5 py-3 border md:border-4 text-white border-gray-50 hover:bg-white hover:text-black shadow-shadow1 rounded-sm'>
               <BiLogoInstagram />
               <label htmlFor="text" className='text-sm'>
